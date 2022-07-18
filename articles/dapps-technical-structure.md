@@ -39,7 +39,7 @@ TypeScript + Next.js + Firebaseという、スタートアップの典型的な�
 また、「ディレクトリ構成はbulletproof-reactを踏襲」「状態管理はRecoilを使用」等モダンな技術スタックを採用するように努めています。
 スマートコントラクトの印象が先行するDApps開発ですが、実は開発タスクの中でスマコンが占める割合は1~2割です。
 DApps開発においてはむしろWeb2開発の体制構築・最適化の方が大事です。
-(Web2部分についてはほぼ[os-shun](https://zenn.dev/os_hun))が提案してくれました。神)
+(Web2部分についてはほぼ[os-shun](https://zenn.dev/os_hun)の提案です。神)
 
 また、Linter/Formatterについては最強の設定で運用できている自負があります([os-shun](https://zenn.dev/os_hun))がほぼ一人で作り切ってくれました。神を超えた神)
 また、VSCodeの共用設定を `.vscode` に入れていて、非常に便利です。
@@ -49,11 +49,11 @@ Firebaseの使い方もちょっとクセがあり、Firebase AuthのCustom Toke
 これも詳しくは別記事で取り上げます。
 
 :::message
-🤔「Indexerについての記載がない...?」
+🤔「Indexerについての記載がない?」
 と思った方はつよくて信頼できるDApps開発者です。
 通常、The GraphのようなIndexerを使用することが多いと思います。
 しかし、弊社ではIndexer的役割をFirestore+Ethers.js+Moralisで代替しています。
-The Graphを扱えるエンジニアがいないわけではなく、諸要件から考えてベストであると考えるからです。
+The Graphを扱えるエンジニアがいないわけではないのですが、弊社の諸要件から考えた結論になります。
 詳しくは別途記事で解説予定。
 :::
 
@@ -65,7 +65,7 @@ The Graphを扱えるエンジニアがいないわけではなく、諸要件�
 - `インフラ`: Alchemy
 - `Linter/Formatter`: Prettier, VSCode
 
-元々Truffle+Web3.jsだったんですが、最近Hardhat+Ethers.jsに移行しました。
+元々[Truffle](https://trufflesuite.com/)+[Web3.js](https://web3js.readthedocs.io/en/v1.7.4/)だったんですが、最近[Hardhat](https://hardhat.org/)+[Ethers.js](https://docs.ethers.io/v5/)に移行しました。
 Ethers.jsへの移行は元々予定されていたのですが、Hardhatのきっかけは[てんでんさん](https://twitter.com/ytenden)に「HardhatならコントラクトのVerifyがワンタッチでできる」と教えてもらったからです。
 ちなみにWeb3.jsとEthers.jsの比較は[こちらの記事](https://zenn.dev/nft/books/410be300912936)を参照ください。
 
@@ -92,8 +92,8 @@ Bunzz CTOの[hitsujiさん](https://twitter.com/hitsuji_haneta_)にも相談さ�
 - `RPC`: QuickNode  
 
 こちらもよくあるスタートアップの使用ツール群です。
-違いとしてはIPFS管理ツールの存在でしょうか。Infuraが最も有名ですが、Pinataが便利です。
-またRPCは基本的にInfuraやAlchemyで十分かと思いますが、WebSocket Serverを立てたり、長時間TXを発行し続ける場合の負荷には耐えられないと思います。そのような場合は有償ではありますが[QuickNode](https://www.quicknode.com?tap_a=67226-09396e&tap_s=3027894-be8de5&utm_source=affiliate&utm_campaign=generic&utm_content=affiliate_landing_page&utm_medium=generic)がお勧めです。
+違いとしてはIPFS管理ツールの存在でしょうか。Infuraが最も有名ですが、[Pinata](https://www.pinata.cloud/)が便利です。
+またRPCは基本的にInfuraや[Alchemy](https://alchemy.com/?r=53d41f5c8165b493)で十分かと思いますが、WebSocket Serverを立てたり、長時間TXを発行し続ける場合の負荷には耐えられないと思います。そのような場合は有償ではありますが[QuickNode](https://www.quicknode.com?tap_a=67226-09396e&tap_s=3027894-be8de5&utm_source=affiliate&utm_campaign=generic&utm_content=affiliate_landing_page&utm_medium=generic)がお勧めです。
 また、弊社の特徴としてはNotionを使い倒しています。企画書/要件定義/スプリント管理etc.ドキュメントは全てNotion。
 DB設計も元々はNotion上で作成していましたが、最近はdbdiagramを使用することも増えてきました。
 
@@ -117,9 +117,12 @@ DB設計も元々はNotion上で作成していましたが、最近はdbdiagram
 
 ## 参考
 
+### 記事
 [Reactベストプラクティスの宝庫！「bulletproof-react」が勉強になりすぎる件](https://zenn.dev/meijin/articles/bulletproof-react-is-best-architecture)
 [hardhatからEtherscanにコードを登録する方法](https://zenn.dev/ryo_takahashi/articles/77f4eeb3f9f52b)
-[プログラミングTypeScript ―スケールするJavaScriptアプリケーション開発](https://amzn.to/3z9FHYJ)
 [Node.jsのバージョン管理にVoltaを推したい](https://zenn.dev/taichifukumoto/articles/how-to-use-volta)
+
+### 書籍
+[プログラミングTypeScript ―スケールするJavaScriptアプリケーション開発](https://amzn.to/3z9FHYJ)
 [Reactハンズオンラーニング 第2版 ―Webアプリケーション開発のベストプラクティス ](https://amzn.to/3IN7Doz)
 [プロダクトマネジメントのすべて 事業戦略・IT開発・UXデザイン・マーケティングからチーム・組織運営まで](https://amzn.to/3zd7bfY)
