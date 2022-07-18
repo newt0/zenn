@@ -6,7 +6,7 @@ topics: ["NFT", "Web3", "dapps","react", "nextjs", ]
 published: true
 ---
 
-DApps/Web3開発を行う際の技術構成が自分の中でFIXしたので共有。
+DApps/Web3開発を行う際の技術構成がFIXしたので共有します💪
 
 *この記事はこんな方にお勧め*👇
 🐶「Web3プロジェクトの開発リーダー」
@@ -22,18 +22,21 @@ DApps/Web3開発を行う際の技術構成が自分の中でFIXしたので共�
 
 ### アプリケーション開発
 
-- `言語`: TypeScript 
-- `フレームワーク`: Next.js(React.js)
-- `ディレクトリ構成`: bulletproof-react
-- `CSSライブラリ`: Chakra UI
-- `状態管理`: Recoil
-- `Web2バックエンド`: Firebase(Firebase Auth, Firestore, Cloud Functions)
-- `Web2-Web3ブリッジ`: Ethers.js, Bunzz SDK, Moralis 
-- `Web3ライブラリ`: Web3Modal, WalletConnect, Torus
-- `フィアット決済`: Stripe
-- `Linter/Formatter`: ESLint, Prettier, VSCode
-- `Testing`: Cypress
-- `UIツール`: Storybook
+| | |
+| ---- | ---- |
+|`言語`|TypeScript| 
+|`フレームワーク`|Next.js(React.js)| 
+|`ディレクトリ構成`|bulletproof-react | 
+|`CSSライブラリ`|Chakra UI| 
+|`状態管理`|Recoil| 
+|`Web2バックエンド`|Firebase(Firebase Auth, Firestore, Cloud Functions)| 
+|`Web2-Web3ブリッジ`|Ethers.js, Bunzz SDK, Moralis | 
+|`ウォレットライブラリ`|Web3Modal, WalletConnect, Torus|
+|`フィアット決済`|Stripe|
+|`Linter/Formatter`|ESLint, Prettier, VSCode|
+|`Testing`|Cypress|
+|`UI Tool`|Storybook|
+
 
 TypeScript + Next.js + Firebaseという、スタートアップの典型的な技術構成ですね。
 また、「ディレクトリ構成はbulletproof-reactを踏襲」「状態管理はRecoilを使用」等モダンな技術スタックを採用するように努めています。
@@ -59,11 +62,14 @@ The Graphを扱えるエンジニアがいないわけではないのですが�
 
 ### スマートコントラクト開発
 
-- `言語`: Solidity, TypeScript
-- `フレームワーク`: hardhat
-- `Web2-Web3ブリッジ`: Ethers.js
-- `インフラ`: Alchemy
-- `Linter/Formatter`: Prettier, VSCode
+| | |
+| ---- | ---- |
+| `言語` | Solidity, TypeScript |
+| `フレームワーク` | Hardhat |
+| `Web2-Web3ブリッジ` |  Ethers.js |
+| `インフラ` | Alchemy |
+| `Linter/Formatter` | Prettier, VSCode |
+
 
 元々[Truffle](https://trufflesuite.com/)+[Web3.js](https://web3js.readthedocs.io/en/v1.7.4/)だったんですが、最近[Hardhat](https://hardhat.org/)+[Ethers.js](https://docs.ethers.io/v5/)に移行しました。
 Ethers.jsへの移行は元々予定されていたのですが、Hardhatのきっかけは[てんでんさん](https://twitter.com/ytenden)に「HardhatならコントラクトのVerifyがワンタッチでできる」と教えてもらったからです。
@@ -81,15 +87,17 @@ Bunzz CTOの[hitsujiさん](https://twitter.com/hitsuji_haneta_)にも相談さ�
 
 ### ツール
 
-- `連絡ツール`: Slack
-- `バージョン管理`: Github
-- `コードエディタ`: VSCode
-- `デザイン`: Figma
-- `プロジェクト管理`: Notion 
-- `DB設計エディタ`: dbdiagram
-- `Node.jsバージョン管理`: Volta 
-- `IPFS管理`: Pinata
-- `RPC`: QuickNode  
+| | |
+| ---- | ---- |
+|`Chat Tool`|Slack|
+|`Sprint Manager`|Notion |
+|`Source Code`|Github|
+|`Code Editor`|VSCode|
+|`DB Editor`|dbdiagram|
+|`Design Tool`|Figma|
+|`JS Tool Manager`|Volta|
+|`IPFS Hosting`|Pinata|
+|`RPC URL`|QuickNode|
 
 こちらもよくあるスタートアップの使用ツール群です。
 違いとしてはIPFS管理ツールの存在でしょうか。Infuraが最も有名ですが、[Pinata](https://www.pinata.cloud/)が便利です。
@@ -101,9 +109,7 @@ DB設計も元々はNotion上で作成していましたが、最近はdbdiagram
 
 是非皆さんのお勧めの技術構成やご意見もコメントで教えてください🙏
 
-### お知らせ
-
-主に法人向けに各種開発・コンサルティングを承っております。
+また、弊社では主に各種開発・コンサルティングを承っております。
 
 - NFTマーケットプレイス開発
 - ミンティングサイト開発
@@ -112,12 +118,13 @@ DB設計も元々はNotion上で作成していましたが、最近はdbdiagram
 - Web3新規事業の立ち上げ/コンサルティング
 - Discordコミュニティ運用/SNSマーケティング
 
-ご連絡は[Twitter](https://twitter.com/kyohei_nft)または[フォーム](https://business.leadedge-c.com/#contact)までお気軽に✌️
+ご相談は[Twitter](https://twitter.com/kyohei_nft)または[フォーム](https://business.leadedge-c.com/#contact)までお気軽に✌️
 
 
 ## 参考
 
 ### 記事
+[Ethereum JavaScript Libraries: web3.js vs. ethers.js (Part I)[邦訳]](https://zenn.dev/nft/books/410be300912936)
 [Reactベストプラクティスの宝庫！「bulletproof-react」が勉強になりすぎる件](https://zenn.dev/meijin/articles/bulletproof-react-is-best-architecture)
 [hardhatからEtherscanにコードを登録する方法](https://zenn.dev/ryo_takahashi/articles/77f4eeb3f9f52b)
 [Node.jsのバージョン管理にVoltaを推したい](https://zenn.dev/taichifukumoto/articles/how-to-use-volta)
