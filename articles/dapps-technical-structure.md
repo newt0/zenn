@@ -2,7 +2,7 @@
 title: "DApps/Web3開発の技術構成の紹介"
 emoji: "👻"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["NFT", "Web3", "dapps","react", "nextjs", ]
+topics: ["Solidity","Ethereum","DApps","NFT", "ethersjs"]
 published: true
 ---
 
