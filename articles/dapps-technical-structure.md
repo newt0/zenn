@@ -112,28 +112,34 @@ DB設計も元々はNotion上で作成していましたが、最近はdbdiagram
 皆さんの参考になれば幸いです💪
 是非皆さんのお勧めの技術構成やご意見もコメントで教えてください🙏
 
-また、弊社では各種開発・コンサルティングを承っております。
-
+また、各種開発/PMの相談もお気軽にどうぞ🙆
+こんなことできます👇
+- Web3プロジェクトの企画-開発-運用まで一気通貫で伴走
+- Web3開発の内製化支援/研修実施
+- Web3開発チームをゼロから採用・組成
 - NFTマーケットプレイス開発
 - ミンティングサイト開発
-- ジェネラティブNFT開発
-- Web3開発の内製化支援
-- Web3新規事業の立ち上げ/コンサルティング
-- Discordコミュニティ運用/SNSマーケティング
+- ジェネラティブNFTの企画・開発
+- NFTの配布を活用したプロモーション企画の実施
+- Web3リサーチ
+  
+(お問い合わせは[Twitter](https://twitter.com/kyohei_nft)または[こちら](https://business.leadedge-c.com/#contact)からどうぞ)
 
-ご相談は[Twitter](https://twitter.com/kyohei_nft)または[こちら](https://business.leadedge-c.com/#contact)までお気軽に💪
+僕の各種プロダクトもよろしくお願いします🙏
+https://nft-hhkun.leadedge-c.com/
+https://nori.leadedge-c.com/
+https://media.leadedge-c.com/
 
 -----
 ## 参考資料
 
 ▼記事
+[Web2/Web3スタートアップにお勧めの書籍・学習資料](https://www.notion.so/kyohei-nft/7707ba5b13e24814881d50f032934db7)
 [DAppを構成する技術レイヤーと各サービスのカオスマップ](https://lastrust.notion.site/DApp-9a862bc707624d5eb94e09705486552d)
 [Ethereum JavaScript Libraries: web3.js vs. ethers.js (Part I)[邦訳]](https://zenn.dev/nft/books/410be300912936)
-[Reactベストプラクティスの宝庫！「bulletproof-react」が勉強になりすぎる件](https://zenn.dev/meijin/articles/bulletproof-react-is-best-architecture)
-[hardhatからEtherscanにコードを登録する方法](https://zenn.dev/ryo_takahashi/articles/77f4eeb3f9f52b)
-[Node.jsのバージョン管理にVoltaを推したい](https://zenn.dev/taichifukumoto/articles/how-to-use-volta)
 
 ▼書籍
 [プログラミングTypeScript ―スケールするJavaScriptアプリケーション開発](https://amzn.to/3z9FHYJ)
 [Reactハンズオンラーニング 第2版 ―Webアプリケーション開発のベストプラクティス ](https://amzn.to/3IN7Doz)
+[SolidityとEthereumによる実践スマートコントラクト開発](https://amzn.to/3RR9GvF)
 [プロダクトマネジメントのすべて 事業戦略・IT開発・UXデザイン・マーケティングからチーム・組織運営まで](https://amzn.to/3zd7bfY)
