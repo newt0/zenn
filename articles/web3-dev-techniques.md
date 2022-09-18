@@ -28,28 +28,28 @@ Web3開発テクを片っ端から紹介します。
 ただ、Web3開発の現場で働いている方なら本記事の項目をヒントに自走できるかなと思います。
 :::
 
-✅ リレートランザクション
-✅ メタトランザクション
-✅ スマホからウォレット接続(WalletConnect)
-✅ SNSログインでウォレット自動生成(Torus Wallet)
-✅ Firebase AuthとMetaMask連携
-✅ Moralisでウォレットの保有NFTを一覧取得　
-✅ クローンベースの開発でdApps最速リリース
-✅ Bunzzの登録スマコンを使ってCode Audit省略
-✅ オンチェーンデータをWeb2DBに重複保持
-✅ オンチェーンから直接取得することでDBをスリム化
-✅ QuickNodeの最強RPCで高負荷のTXを通す
-✅ Stripe審査をパスする裏技
-✅ Pinataでフォルダ単位のIPFS化
-✅ InfuraでクライアントからIPFS化制御
-✅ TXベースと署名ベースの使い分け
-✅ コントラクトを生成するコントラクトで独コン実装
-✅ WLをマークルツリーで実装してガス代節約 
-✅ スマコン側でbot対策
-✅ FirestoreやMoralisでThe Graphを代替
-✅ エンドユーザーがTXを発行する際のガス代を制御
-✅ Bunzz SDKでWeb3.jsやウォレット周りの実装を代替
-✅ 最初にNotionで簡易な要件定義書を作成することで機能要件をFIXさせる
+### ✅ リレートランザクション
+### ✅ メタトランザクション
+### ✅ スマホからウォレット接続(WalletConnect)
+### ✅ SNSログインでウォレット自動生成(Torus Wallet)
+### ✅ Firebase AuthとMetaMask連携
+### ✅ Moralisでウォレットの保有NFTを一覧取得　
+### ✅ クローンベースの開発でdApps最速リリース
+### ✅ Bunzzの登録スマコンを使ってCode Audit省略
+### ✅ オンチェーンデータをWeb2DBに重複保持
+### ✅ オンチェーンから直接取得することでDBをスリム化
+### ✅ QuickNodeの最強RPCで高負荷のTXを通す
+### ✅ Stripe審査をパスする裏技
+### ✅ Pinataでフォルダ単位のIPFS化
+### ✅ InfuraでクライアントからIPFS化制御
+### ✅ TXベースと署名ベースの使い分け
+### ✅ コントラクトを生成するコントラクトで独コン実装
+### ✅ WLをマークルツリーで実装してガス代節約 
+### ✅ スマコン側でbot対策
+### ✅ FirestoreやMoralisでThe Graphを代替
+### ✅ エンドユーザーがTXを発行する際のガス代を制御
+### ✅ Bunzz SDKでWeb3.jsやウォレット周りの実装を代替
+### ✅ 最初にNotionで簡易な要件定義書を作成することで機能要件をFIXさせる
 
 
 ## 紹介した開発ツール
@@ -89,6 +89,6 @@ https://media.leadedge-c.com/
 
 ## 参考資料
 
-[Web2/Web3スタートアップにお勧めの書籍・学習資料](https://www.notion.so/kyohei-nft/7707ba5b13e24814881d50f032934db7)
+[Web2/Web3スタートアップにお勧めの書籍・学習リソース](https://www.notion.so/kyohei-nft/7707ba5b13e24814881d50f032934db7)
 
 
