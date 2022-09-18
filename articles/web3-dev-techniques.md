@@ -53,7 +53,7 @@ Web3開発テクを片っ端から紹介します。
 
 
 ## 紹介した開発ツール
-https://www.quicknode.com/?tap_a=67226-09396e&tap_s=2503552-bd2266&utm_source=affiliate&utm_campaign=generic&utm_content=affiliate_landing_page&utm_medium=generic
+https://www.quicknode.com?tap_a=67226-09396e&tap_s=3027894-be8de5&utm_source=affiliate&utm_campaign=generic&utm_content=affiliate_landing_page&utm_medium=generic
 https://notion.grsm.io/0udc86nsqz1d
 https://www.bunzz.dev/
 https://moralis.io/
