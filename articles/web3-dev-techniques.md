@@ -30,26 +30,49 @@ Web3開発テクを片っ端から紹介します。
 
 ### ✅ リレートランザクション
 ### ✅ メタトランザクション
+### ✅ オラクル
 ### ✅ スマホからウォレット接続(WalletConnect)
 ### ✅ SNSログインでウォレット自動生成(Torus Wallet)
 ### ✅ Firebase AuthとMetaMask連携
 ### ✅ Moralisでウォレットの保有NFTを一覧取得　
+### ✅ MoralisでNFT所有者限定のページを実装
 ### ✅ クローンベースの開発でdApps最速リリース
 ### ✅ Bunzzの登録スマコンを使ってCode Audit省略
+### ✅ Bunzzの登録スマコンを使ってスマートコントラクトエンジニアの採用を省略
 ### ✅ オンチェーンデータをWeb2DBに重複保持
 ### ✅ オンチェーンから直接取得することでDBをスリム化
+### ✅ OpenSea APIでNFTコレクションのVTやFloor Priceを取得
+### ✅ contractAddress&tokenIdからOpenSeaやLooksRareへの遷移ボタンを自動表示
 ### ✅ QuickNodeの最強RPCで高負荷のTXを通す
-### ✅ Stripe審査をパスする裏技
+### ✅ StripeとFirebaseでNFTのクレカ購入機能を実装
+### ✅ NFTプロダクトでStripe審査をパスする裏技
+### ✅ Stripeがリジェクトされた時の決済APIの代替
 ### ✅ Pinataでフォルダ単位のIPFS化
 ### ✅ InfuraでクライアントからIPFS化制御
-### ✅ TXベースと署名ベースの使い分け
+### ✅ ERC-721とERC-1155の使い分け
+### ✅ トランザクションベースと署名ベースの使い分け
+### ✅ 独自コントラクトと共用コントラクトの使い分け
 ### ✅ コントラクトを生成するコントラクトで独コン実装
 ### ✅ WLをマークルツリーで実装してガス代節約 
+### ✅ Bulk関数でGAS代を節約
+### ✅ ERC-721AでGAS代を節約
+### ✅ そもそもガス代が低いL1/L2チェーンを選定することでGAS代を節約
 ### ✅ スマコン側でbot対策
+### ✅ The Graphで高機能なIndexerを作成
 ### ✅ FirestoreやMoralisでThe Graphを代替
+### ✅ Firebase Cloud FunctionsでMint周りをAPI化
 ### ✅ エンドユーザーがTXを発行する際のガス代を制御
 ### ✅ Bunzz SDKでWeb3.jsやウォレット周りの実装を代替
-### ✅ 最初にNotionで簡易な要件定義書を作成することで機能要件をFIXさせる
+### ✅ Notionで爆速で要件定義書を作成&開発スケジュールの遡行を防ぐ
+### ✅ Thirdwebでミンティング機能を既存サイトに埋め込み
+### ✅ NFTのメタデータでSEOハック
+### ✅ スマコンのコメント部分や関数名を工夫してグロースハック
+### ✅ 自作APIでDiscordのNFT認証をカスタマイズ
+### ✅ Chakra UIでwalletAddressのコピペ機能を簡単実装
+### ✅ Chakra UIでTXやウォレット周りのToastメッセージを簡単実装
+### ✅ ウォレットの接続状態をキャッシュ化してUX向上
+### ✅ メタデータのリフレッシュボタンの実装
+
 
 
 ## 紹介した開発ツール
