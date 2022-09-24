@@ -1,5 +1,5 @@
 ---
-title: "Web3開発テクニック20選を紹介"
+title: "Web3開発テクニック50選を紹介"
 emoji: "🐶"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["NFT", "Solidity","Firebase","nextjs","ethersjs"]
@@ -33,6 +33,7 @@ Web3開発テクを片っ端から紹介します。
 ### ✅ オラクル
 ### ✅ スマホからウォレット接続(WalletConnect)
 ### ✅ SNSログインでウォレット自動生成(Torus Wallet)
+### ✅ ウォレットの接続状態をキャッシュ化してUX向上
 ### ✅ Firebase AuthとMetaMask連携
 ### ✅ Moralisでウォレットの保有NFTを一覧取得　
 ### ✅ MoralisでNFT所有者限定のページを実装
@@ -49,6 +50,8 @@ Web3開発テクを片っ端から紹介します。
 ### ✅ Stripeがリジェクトされた時の決済APIの代替
 ### ✅ Pinataでフォルダ単位のIPFS化
 ### ✅ InfuraでクライアントからIPFS化制御
+### ✅ メタデータのリフレッシュボタンの実装
+### ✅ IPFSを脱却してArweaveにメタデータホスティング
 ### ✅ ERC-721とERC-1155の使い分け
 ### ✅ トランザクションベースと署名ベースの使い分け
 ### ✅ 独自コントラクトと共用コントラクトの使い分け
@@ -56,8 +59,9 @@ Web3開発テクを片っ端から紹介します。
 ### ✅ WLをマークルツリーで実装してガス代節約 
 ### ✅ Bulk関数でGAS代を節約
 ### ✅ ERC-721AでGAS代を節約
-### ✅ そもそもガス代が低いL1/L2チェーンを選定することでGAS代を節約
-### ✅ スマコン側でbot対策
+### ✅ Low GASなL1/L2チェーンを選定することでGAS代を考慮した実装を省略
+### ✅ require文を一行足してbot対策
+### ✅ publicMintにも上限を設定してbot対策
 ### ✅ The Graphで高機能なIndexerを作成
 ### ✅ FirestoreやMoralisでThe Graphを代替
 ### ✅ Firebase Cloud FunctionsでMint周りをAPI化
@@ -65,14 +69,16 @@ Web3開発テクを片っ端から紹介します。
 ### ✅ Bunzz SDKでWeb3.jsやウォレット周りの実装を代替
 ### ✅ Notionで爆速で要件定義書を作成&開発スケジュールの遡行を防ぐ
 ### ✅ Thirdwebでミンティング機能を既存サイトに埋め込み
-### ✅ NFTのメタデータでSEOハック
 ### ✅ スマコンのコメント部分や関数名を工夫してグロースハック
 ### ✅ 自作APIでDiscordのNFT認証をカスタマイズ
 ### ✅ Chakra UIでwalletAddressのコピペ機能を簡単実装
 ### ✅ Chakra UIでTXやウォレット周りのToastメッセージを簡単実装
-### ✅ ウォレットの接続状態をキャッシュ化してUX向上
-### ✅ メタデータのリフレッシュボタンの実装
-
+### ✅ 各チェーンのBlockchain Explorerへのリンクを自動表示
+### ✅ walletAddressから各NFTマケプレへのユーザーページのリンクを自動表示(OpenSea等)
+### ✅ collectionAddressから各NFTマケプレ上のNFT詳細ページのリンクを自動表示(OpenSea等)
+### ✅ collectionAddressとtokenIdから各NFTマケプレへのNFT詳細ページのリンクを自動表示(OpenSea等)
+### ✅ NFTのメタデータでSEOハック
+### ✅ フッターからEthereumや金融庁への発リンクを行うことでドメインパワー向上
 
 
 ## 紹介した開発ツール
@@ -87,7 +93,8 @@ https://www.pinata.cloud/
 
 ## 終わりに
 
-これ数えたら20個以上あるな？？？許せサスケ、タイトル詐欺だ。
+~~これ数えたら20個以上あるな？？？。~~
+「50選」にタイトル修正しました。
 
 本記事が、Bizからの無茶振りや思い付きと戦うWeb3エンジニアの助けになれば幸いです。
 皆さんのお勧めテクやご意見も、ぜひコメントで教えてください。
