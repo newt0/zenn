@@ -43,7 +43,9 @@ Web3開発テクを片っ端から紹介します。
 ### ✅ オンチェーンデータをWeb2DBに重複保持
 ### ✅ オンチェーンから直接取得することでDBをスリム化
 ### ✅ OpenSea APIでNFTコレクションのVTやFloor Priceを取得
-### ✅ contractAddress&tokenIdからOpenSeaやLooksRareへの遷移ボタンを自動表示
+### ✅ walletAddressから各NFTマケプレへのユーザーページへの遷移ボタンを自動表示(OpenSea等)
+### ✅ collectionAddressから各NFTマケプレ上のNFT詳細ページへの遷移ボタンを自動表示(OpenSea等)
+### ✅ collectionAddressとtokenIdから各NFTマケプレへのNFT詳細ページへの遷移ボタンを自動表示(OpenSea等)
 ### ✅ QuickNodeの最強RPCで高負荷のTXを通す
 ### ✅ StripeとFirebaseでNFTのクレカ購入機能を実装
 ### ✅ NFTプロダクトでStripe審査をパスする裏技
@@ -60,6 +62,7 @@ Web3開発テクを片っ端から紹介します。
 ### ✅ Bulk関数でGAS代を節約
 ### ✅ ERC-721AでGAS代を節約
 ### ✅ Low GASなL1/L2チェーンを選定することでGAS代を考慮した実装を省略
+### ✅ 高速なブロックチェーンを選定することでTXの速度を考慮した実装を省略
 ### ✅ require文を一行足してbot対策
 ### ✅ publicMintにも上限を設定してbot対策
 ### ✅ The Graphで高機能なIndexerを作成
@@ -74,12 +77,9 @@ Web3開発テクを片っ端から紹介します。
 ### ✅ Chakra UIでwalletAddressのコピペ機能を簡単実装
 ### ✅ Chakra UIでTXやウォレット周りのToastメッセージを簡単実装
 ### ✅ 各チェーンのBlockchain Explorerへのリンクを自動表示
-### ✅ walletAddressから各NFTマケプレへのユーザーページのリンクを自動表示(OpenSea等)
-### ✅ collectionAddressから各NFTマケプレ上のNFT詳細ページのリンクを自動表示(OpenSea等)
-### ✅ collectionAddressとtokenIdから各NFTマケプレへのNFT詳細ページのリンクを自動表示(OpenSea等)
 ### ✅ NFTのメタデータでSEOハック
 ### ✅ フッターからEthereumや金融庁への発リンクを行うことでドメインパワー向上
-
+### ✅ Substrateをベースに数時間でブロックチェーン開発
 
 ## 紹介した開発ツール
 https://www.quicknode.com?tap_a=67226-09396e&tap_s=3027894-be8de5&utm_source=affiliate&utm_campaign=generic&utm_content=affiliate_landing_page&utm_medium=generic
