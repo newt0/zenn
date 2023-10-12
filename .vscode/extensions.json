@@ -1,14 +1,25 @@
 {
   "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "dsznajder.es7-react-js-snippets",
-    "formulahendry.auto-close-tag",
-    "formulahendry.auto-rename-tag",
-    "streetsidesoftware.code-spell-checker",
+    // ## Code Fomatter・Code Checker
+    "formulahendry.auto-close-tag", // 閉じタグを自動補完
+    "formulahendry.auto-rename-tag", // 開始タグを変更すると、終了タグも自動で変更
+    "streetsidesoftware.code-spell-checker", // スペルチェック。必ず入れること
+    "dsznajder.es7-react-js-snippets", // React
+    "dbaeumer.vscode-eslint", // ESLint
+    "esbenp.prettier-vscode", // Prettier
+    "jock.svg", // svgのformat
+    // ## Git
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+
+    // ## AI・copilot
     "github.copilot",
     "github.copilot-labs",
     "visualstudioexptteam.vscodeintellicode",
-    "jock.svg"
+    "visualstudioexptteam.intellicode-api-usage-examples"
+
+    // ## 入れておくと便利だが、お好みで。
+    // "ms-ceintl.vscode-language-pack-ja", // 日本語化
+    // "vscode-icons-team.vscode-icons" // Iconが良い感じになる
   ]
 }

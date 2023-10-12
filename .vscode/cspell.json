@@ -1,105 +1,123 @@
-// cSpell Settings
-// how to use(https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-{
-  // Version of the setting file.  Always 0.2
-  "version": "0.2",
-  // The Language local to use when spell checking. "en", "en-US" and "en-GB" are currently supported by default.
-  "language": "en",
-  // Controls the maximum number of spelling errors per document.
-  "maxNumberOfProblems": 10,
-  // The minimum length of a word before checking it against a dictionary.
-  "minWordLength": 3,
-  // Enable / Disable the spell checker.
-  "enabled": true,
-  // Enable / Disable compound words like 'errormessage'
-  "allowCompoundWords": true,
-  // words - list of words to be always considered correct
+/*
+|--------------------------------------------------------------------------
+| cSpell Settings
+|--------------------------------------------------------------------------
+|
+| how to use(https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+|
+*/{
+  "version": "0.2", // Version of the setting file.  Always 0.2
+  "language": "en", // The Language local to use when spell checking. "en", "en-US" and "en-GB" are currently supported by default.
+  "maxNumberOfProblems": 10, // Controls the maximum number of spelling errors per document.
+  "minWordLength": 3, // The minimum length of a word before checking it against a dictionary.
+  "enabled": true, // Enable / Disable the spell checker.
+  "allowCompoundWords": true, // Enable / Disable compound words like 'errormessage'
+  "ignoreWords": [], // Words to be ignored and not suggested.
+  "flagWords": [], // flagWords - list of words to be always considered incorrect
+  /**
+   * words - list of words to be always considered correct
+   */
   "words": [
     "'nprogress'",
-    "Arweave",
-    "astar",
+    "Astar",
     "AVAX",
+    "axios",
+    "Binance",
+    "Bnb",
+    "boj",
     "BSC",
     "Bunzz",
-    "Bware",
+    "ByBit",
     "CDN",
     "Chainable",
     "CHOKIDAR_USEPOLLING",
     "clsx",
     "Consolas",
-    "Cronos",
-    "CTO",
-    "dappradar",
-    "dbdiagram",
     "discoverability",
-    "DTO",
     "env",
     "ERC",
+    "ETH",
     "etherscan",
-    "evm",
+    "FC2",
     "firebasestorage",
     "fortawesome",
+    "fsa",
+    "gocthamall",
     "Graphik",
     "hatena",
-    "hitsuji",
+    "hoge",
     "hookform",
-    "Iemitsu",
     "img",
     "IoPricetagOutline",
     "ipfs",
+    "Jpyc",
+    "JWT",
     "keccak",
+    "kenkyu",
     "klaytn",
+    "Kyohei",
     "lazyimagenoblur",
-    "Leadedge",
-    "LEPC",
     "linaria",
+    "localweb3",
+    "MATIC",
     "maxage",
     "Menlo",
-    "messenger_rafiki_1",
+    "meti",
     "MICROCMS",
     "monospace",
     "moralis",
-    "MozOsxFontSmoothing",
     "mumbaiscan",
     "Neue",
-    "NFTNOW",
-    "Nijo",
     "nikolovlazar",
     "noopener",
     "noreferrer",
-    "nori",
     "Noto",
+    "nta",
+    "ntc",
     "OGP",
-    "onfinality",
+    "onigiriman",
     "PBAC",
     "polygonscan",
     "preconnect",
     "prettierrc",
-    "qrcode",
+    "Ray",
     "reactDocgen",
-    "reupload",
+    "Regex",
+    "regx",
     "rpc",
     "SDN",
-    "SEO",
+    "Seo",
     "Shibuya",
     "Shiden",
+    "Shin",
+    "signin",
+    "Slash",
+    "SlashVaults",
     "srcset",
     "supabase",
+    "SVL",
     "swr",
     "Tahoma",
+    "tofunft",
+    "Tokio",
+    "uid",
     "Unlockable",
-    "uuidv4",
     "Vercel",
+    "wagmi",
     "WEBP",
     "wevp",
+    "WIP",
+    "xsmall",
+    "Yagi",
+    "yanchal",
+    "Yasukuni",
     "zod",
+    "Zoomex",
     "zustand"
   ],
-  // Words to be ignored and not suggested.
-  "ignoreWords": [],
-  // flagWords - list of words to be always considered incorrect
-  "flagWords": [],
-  // Specify paths/files to ignore.
+  /**
+   * Specify paths/files to ignore.
+   */
   "ignorePaths": [
     "node_modules",
     "**/.DS_Store",
